@@ -9,6 +9,12 @@
     display: flex;
     justify-content: end;
 }
+ul{
+    text-decoration: none;
+}
+#header{
+    position: fixed;
+}
 @media(max-width: 786px){
     .projects {
         flex-direction: column;
