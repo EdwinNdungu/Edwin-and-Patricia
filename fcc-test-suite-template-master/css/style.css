@@ -1,7 +1,19 @@
 #header-img{
     width:35% ;
 }
-.nav-link{
-    display:inline;
 
+.products{
+    display: flexbox;
+}
+#nav-bar{
+    display: flex;
+    justify-content: end;
+}
+@media(max-width: 786px){
+    .projects {
+        flex-direction: column;
+    }
+    .card {
+        margin: 3% 0;
+    }
 }
